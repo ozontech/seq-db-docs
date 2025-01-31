@@ -5,7 +5,8 @@ for [seq-db](https://github.com/ozontech/seq-db).
 
 ## Production deploy
 
-To deploy seq-db documentation use `make build`. It will create `dist` folder with static generated website.
+To deploy seq-db documentation use `make build`. 
+It will produce `build` folder with static generated seq-db documentation.
 
 ## Local development
 
