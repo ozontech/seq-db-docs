@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Internal": {
+    "message": "Internal",
+    "description": "The label for category Internal in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Internal.link.generated-index.title": {
+    "message": "Internal docs",
+    "description": "The generated-index page title for category Internal in sidebar tutorialSidebar"
+  }
+}
