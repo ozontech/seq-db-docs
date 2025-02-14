@@ -114,8 +114,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Ozon, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: prismThemes.vsLight,
+        darkTheme: prismThemes.vsDark,
       },
     }),
 };
