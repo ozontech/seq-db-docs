@@ -10,10 +10,14 @@ build: cleanup
 
 	npm run build
 
+.PHONY: serve
+serve:
+	npm run serve
+
 .PHONY: cleanup
 cleanup:
 	rm -rf tmp build docs/seq-db/* i18n/ru/docusaurus-plugin-content-docs/current/seq-db/*
 
-.PHONY: build-live-server
-build-live-server:
+.PHONY: build-image
+build-image:
 	docker build .
