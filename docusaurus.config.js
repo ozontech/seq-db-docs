@@ -62,10 +62,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'seq-db',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Ozon Tech',
+          src: 'img/logo-dark.svg',
+          srcDark: 'img/logo-light.svg',
         },
         items: [
           {
@@ -92,7 +93,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Introduction',
+                label: 'Quickstart',
                 to: '/',
               },
             ],
