@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'seq-db docs',
   tagline: 'seq-db is open source database for logs and traces',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-v2.ico',
 
   // Set the production url of your site here
   url: 'https://ozontech.github.io',
@@ -65,8 +65,10 @@ const config = {
         title: 'seq-db',
         logo: {
           alt: 'Ozon Tech',
-          src: 'img/logo-dark.svg',
-          srcDark: 'img/logo-light.svg',
+          src: 'img/logo-light-v2.svg',
+          srcDark: 'img/logo-dark-v2.svg',
+          width: 90,
+          height: 32,
         },
         items: [
           {
