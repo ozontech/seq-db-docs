@@ -1,6 +1,6 @@
 .PHONY: build
 build: cleanup
-	git clone --depth 1 -b main git@github.com:ozontech/seq-db.git tmp/seq-db
+	git clone --depth 1 -b main  https://github.com/ozontech/seq-db.git  tmp/seq-db
 
 	mkdir -p docs/seq-db
 	mv -v tmp/seq-db/docs/en/* ./docs/seq-db/
