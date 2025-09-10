@@ -100,6 +100,11 @@ const config = {
             position: 'right',
           },
           {
+            href: 'https://t.me/file_d_community',
+            label: 'Telegram',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/ozontech/seq-db',
             label: 'GitHub',
             position: 'right',
