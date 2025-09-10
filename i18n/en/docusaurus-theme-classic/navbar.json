@@ -1,7 +1,7 @@
 {
   "title": {
-    "message": "seq-db",
-    "description": "The title in the navbar"
+    "message": "Logging",
+    "description": "Ozon Tech open-source logging stack"
   },
   "logo.alt": {
     "message": "seq-db logo",

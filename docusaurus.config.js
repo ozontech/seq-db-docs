@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -36,6 +36,12 @@ const config = {
     locales: ['en', 'ru'],
   },
 
+  plugins: [
+    '@docusaurus/theme-mermaid',
+  ],
+  markdown: {
+    mermaid: true,
+  },
   presets: [
     [
       'classic',
@@ -57,8 +63,14 @@ const config = {
   ],
 
   themeConfig:
-  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      mermaid: {
+        theme: {
+          light: 'neutral', // Example light theme
+          dark: 'forest',   // Example dark theme
+        },
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
