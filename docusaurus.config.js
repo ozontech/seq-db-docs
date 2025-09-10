@@ -25,7 +25,7 @@ const config = {
   organizationName: 'ozontech', // Usually your GitHub org/user name.
   projectName: 'seq-db-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -62,7 +62,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'seq-db',
+        title: 'Logging',
         logo: {
           alt: 'Ozon Tech',
           src: 'img/logo-light-v2.svg',
@@ -75,7 +75,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docs',
             position: 'left',
-            label: 'Docs',
+            label: 'Seq-db',
+          },
+          {
+            href: 'https://ozontech.github.io/file.d',
+            label: 'File.d',
+            sidebarId: 'file-d',
+            position: 'left',
           },
           {
             type: 'localeDropdown',
