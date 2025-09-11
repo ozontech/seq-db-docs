@@ -1,7 +1,7 @@
 # seq-db-docs
 
 This repository contains [docusaurus](https://docusaurus.io/) configuration files
-for [seq-db](https://github.com/ozontech/seq-db).
+for [seq-db](https://github.com/ozontech/seq-db) and [seq-ui](https://github.com/ozontech/seq-ui).
 
 ## Production deploy
 
